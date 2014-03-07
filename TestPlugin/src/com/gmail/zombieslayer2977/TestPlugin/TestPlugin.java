@@ -20,7 +20,7 @@ public final class TestPlugin extends JavaPlugin
 	{
 		getLogger().info("TestPlugin has been deactivated");
 	}
-	
+	//Stefan is en fegit
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[]args)
 	{
 		if(cmd.getName().equalsIgnoreCase("getmycoords") && (sender instanceof Player))
