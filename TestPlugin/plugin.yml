@@ -1,0 +1,9 @@
+name: TestPlugin
+main: com.gmail.zombieslayer2977.TestPlugin.TestPlugin
+version: 1
+commands:
+  getmycoords:
+    description: This will give your current coordinates
+    usage: /getmycoords
+    permission: TestPlugin.getmycoords
+    permission-message: You must be a player to use this command
